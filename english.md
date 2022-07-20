@@ -2409,14 +2409,14 @@ And now you can see the users that are inserted in the "Role".
 
 <p>Forms events run scripts on specific events that happen while using forms.</p>
 
-####Events Types:
+#### Events Types:
 <ul>
 <li><b>OnLoadForm</b>  - Called whenever a Page is loaded.</li>
 <li><b>OnNewForm</b> - Called whenever the user clicks to insert new records</li>
 <li><b>OnEditForm</b> - Called whenever you edit a record</li>
 </ul>
 
-#####Examples of use:
+##### Examples of use:
 To use it just declare a function in the "Custom scripts" with the name of the event, in this case the "onNewForm" was used.
 
 <img src="./BuilderImages/FormEvents/OnNewFormDesign.gif">

@@ -2345,25 +2345,25 @@ E agora você consegue visualizar os usuários que estão inseridos no “Role�
 
 ## Form Events ⚡
 
-<p>Forms events run scripts on specific events that happen while using forms.</p>
+<p>Os Form Events servem para executar scripts em eventos específicos que acontecem durante o uso dos forms.</p>
 
-####Events Types:
+#### Events Types:
 <ul>
-<li><b>OnLoadForm</b>  - Called whenever a Page is loaded.</li>
-<li><b>OnNewForm</b> - Called whenever the user clicks to insert new records</li>
-<li><b>OnEditForm</b> - Called whenever you edit a record</li>
+<li><b>OnLoadForm</b>  - Chamado sempre que uma Page for carregada.</li>
+<li><b>OnNewForm</b> - Chamado sempre que o usuario clicar para inserir novos registros.</li>
+<li><b>OnEditForm</b> - Chamado sempre que o usuário editar um registro.</li>
 </ul>
 
-#####Examples of use:
-To use it just declare a function in the "Custom scripts" with the name of the event, in this case the "onNewForm" was used.
+##### Exemplos de uso:
+Para utilizar basta declarar uma function no script do formulario com o nome do evento, nesse caso foi utilizado o "onNewForm".
 
 <img src="./BuilderImages/FormEvents/OnNewFormDesign.gif">
 
-At runtime, the constructor will look for the function with the keyword "onNewForm" in your "Custom Scripts" and execute it if it exists
+Em tempo de execução o builder irá buscar a function com a palavra chave "onNewForm" em seu "Custom Scripts" e irá executa-lo se existir
 
 <img src="./BuilderImages/FormEvents/OnNewFormRuntime.gif">
 
-With "OnLoadForm" and "OnEditForm" the usage is the same.
+Com OnLoadForm e OnEditForm  o uso é o mesmo.
 
 Edit Form:
 <img src="./BuilderImages/FormEvents/OnEditForm.gif">
@@ -2371,7 +2371,7 @@ Edit Form:
 Page:
 <img src="./BuilderImages/FormEvents/OnLoadForm.gif">
 
-Note: "OnLoadForm" is only effective in Pages.
+Obs: OnLoadForm só é efetivo em Pages.
 
 <div id='id-Tools'/>
 
